@@ -6,11 +6,14 @@ Complete [today's Kata](https://www.codewars.com/kata/indexed-capitalization) an
 
 ## Lab 14 Submission Instructions
 
-- Continue working in the same repository from the previous class
-- Check out a new branch for today's lab assignment, semantically named `rest-api` or something similar. It should include all of the completed code from the previous assignment.
-- Complete your **Feature Tasks for the day**
-- Create a Pull Request back to `master`
-- On Canvas, submit a link to your PR and a link to your deployed application on Heroku. **Make sure to include the following:**
+- ***One partner will fork and clone the starter code as you did during the first two weeks of class. Today's lab will follow that process and be more of a "comment lab" than a "coding lab". There is no requirement to swap driver/navigator roles for this lab, however.***
+- Immediately `git checkout -b <driverName-navigatorName>` (ex: `git checkout -b allie-sam`).
+- Create a copy of the `starter-code` directory with the copy's name being the driver-navigator (ex: `cp -r starter-code allie-sam`) and navigate into that directory (ex: `cd allie-sam`). *Do not* work directly in the `starter-code` directory; only work in your renamed copy of it.
+- Refer to [the instructions from Lab 1](https://github.com/codefellows-seattle-301d33/01-mobile-first/blob/master/README.md) if you need a refresher on that process.
+- Get the application up and running and make comments in the code on the **Feature Tasks for the day**, which have already been completed.
+- Merge your branches into `master` in your forked repo and then make a PR to `master` in the Code Fellows repo. Both partners will submit that same PR link.
+- On Canvas, submit a link to your PR.
+- There is no requirement that you create a deployment of this lab. If you'd like to try to do so afterwards, by all means do, but note that because this code is all in one repo at the moment that you'll need to move it into two separate repos for deployment. So, do not try that until you've submitted your lab.
   - A question within the context of today's lab assignment
   - An observation about the lab assignment, or related 'Ah-hah!' moment
   - How long you spent working on this assignment
@@ -26,6 +29,7 @@ Complete [today's Kata](https://www.codewars.com/kata/indexed-capitalization) an
 
 ## Configuration
 
+- Be sure to set your environment URLS in lines 8 and 9 of `book.js`
 - `ENV VARS` - Paste the following code snippet into your terminal window:
   * _Reminder: these will be temporary while the current shell session (window) is open_
 
